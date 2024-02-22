@@ -12,15 +12,15 @@
 
         <fieldset>    
           <legend>Titulo do Formulario</legend>
-          
+
           <div>
             <label for="">Nome</label> <!-- for colocar o id do input correpondente-->
-            <input type="text" name="nome" id="">
+            <input type="text" name="nome" id="" placeholder="Insira o seu nome" required>
           </div>
 
           <div>
             <label for="">Email</label>
-            <input type="text" name="" id="">
+            <input type="text" name="" id="" value="@cesae.pt">
           </div>
 
           <div>
@@ -43,8 +43,51 @@
             <input type="number" name="" id="" min="1" max="10">
           </div>
             
+          <div>
+            <label for="">Telefone</label>
+            <input type="tel" name="" id="" >
+          </div>
+<br>
+
+          <div>
+            <label for="">Dia da semana atual</label><br>
+            <input type="radio" name="dia" id=""><label for="">Segunda-feira</label><br>
+            <input type="radio" name="dia" id=""><label for="">Terça-feira</label><br>
+            <input type="radio" name="dia" id=""><label for="">Quarta-feira</label><br>
+            <input type="radio" name="dias" id=""><label for="">Quinta-feira</label><br>
+            <input type="radio" name="dias" id=""><label for="">Sexta-feira</label><br>
+          </div>
+<br>
+          <div>
+            <label for="">Cor favorita</label><br>
+            <input type="checkbox"><label for="">Amarelo</label><br>
+            <input type="checkbox"><label for="">Verde</label><br>
+            <input type="checkbox"><label for="">Preto</label><br>
+            <input type="checkbox"><label for="">Rosa</label><br>
+
+          </div>
+<br>
+          <div>
+            <label for="">Curso:</label>
+            <select name="" id="">
+                <option value="" disable selected>Selecione uma opção</option>
+                <option value="">Software Developer</option>
+                <option value="">Data Analyst</option>
+                <option value="">Cybersecurity</option>
+            </select>
+          </div>
+    <br>
+
+    <div>
+         <textarea name="" id="" cols="10" rows="2"></textarea>   
+    </div>
+
+    <div>
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">
+    </div>
+
         </fieldset> 
-      
     </form>
 
 </body>
