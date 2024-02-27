@@ -1,11 +1,55 @@
 body{
-    background-color: lightgrey;
-    padding: 20px; 
+    background-color: bisque;
+    margin: 20px;
+    font-size: 'Lucida', sans-serif;
+}
+
+nav, footer{
+    background-color: grey;
+    padding: 5px;
+    margin: 10px;
+}
+
+.link{
+    color: white;
+}
+
+header, footer{
     text-align: center;
 }
 
-p{
-    background-color: fuchsia;
-    padding: 20px; /*espaço da borda ao texto, margin espaço da borda para fora*/
+header{
+    text-align: center;
+    position: relative;
 }
 
+header>img{
+    width: 100%;
+  /*  min-width: 600px;
+    max-width: 1200px;*/
+}
+
+nav img{
+    height: 25px;
+}
+
+span{
+    background-color: red; 
+    color: white;
+}
+
+.metade{
+    position: absolute;  
+     width: 50%;
+}
+
+/*      # ----> id   . ------> class
+
+#cor-azul{
+    background-color: blue;
+}
+
+#cor-verde{
+    background-color: green;
+}
+*/
