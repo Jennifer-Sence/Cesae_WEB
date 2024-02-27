@@ -7,48 +7,53 @@
 </head>
 <body>
     
-    <form action="">
+    [Ontem 16:40] Jennifer Sence - ALUNO PRT
+    <form action="" method="get">
         <fieldset>
-            <legend>Formulário de contacto CESAE</legend>
+            <legend>Formulário de contacto do CESAE</legend>
+ 
             <div>
-                <label for="">Nome: </label>
+                <label for="form-nome">Nome: </label>
                 <input type="text" placeholder="Insira o seu nome aqui" required>
             </div>
-
+ 
             <div>
-                <label for="">Email: </label>
-                <input type="email" name="" id=""> 
+                <label for="form-email">Email: </label>
+                <input type="email" name="" id="">
             </div><br>
-
+ 
             <div>
                 <label for="">Genero:</label> <br>
-                <input type="radio" name="" id=""><label for="">Masculino</label><br>
-                <input type="radio" name="" id=""><label for="">Feminino</label>
+                <input type="radio" name="form-genero" id="form-genero-m"><label for="">Masculino</label><br>
+                <input type="radio" name="form-genero" id="form-genero-f"><label for="">Feminino</label>
             </div><br>
-
+ 
             <div>
-                <label for="">Data atual: </label>
+                <label for="form-data-atual">Data atual: </label>
                 <input type="date" name="" id="">
             </div><br>
-
+ 
             <div>
                 <label for="">Turma: </label>
-                <select name="" id="" disabled="disabled">
-                    <option value="">Web Developer and Mobile</option>
+                <select name="form-turma" id="" >
+                    <option value="" disabled selected>Selecione uma opção</option>
+                    <option value="form-turma-sd">Software Develepor</option>
+                    <option value="form-turma-wdm">Web Developer and Mobile</option>
+                    <option value="form-turma-da">ata Analyst</option>
                     <option value="Outros"></option>
                 </select>
             </div>
-
+ 
             <div>
                 <label for="">Mensagem: </label>
                 <textarea name="" id="" cols="30" rows="3"></textarea>
             </div>
-
+ 
             <div>
                 <input type="reset" value="Limpar">
                 <input type="submit" value="Enviar">
             </div>
-
+ 
         </fieldset>
     </form>
 
