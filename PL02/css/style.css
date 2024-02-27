@@ -1,8 +1,9 @@
 body{
     background-color: bisque;
     margin: 20px;
-    font-family: 'Lucida Sans', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 main p{
     text-align: justify;
 }
