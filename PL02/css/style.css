@@ -1,7 +1,10 @@
 body{
     background-color: bisque;
     margin: 20px;
-    font-size: 'Lucida', sans-serif;
+    font-family: 'Lucida Sans', sans-serif;
+}
+main p{
+    text-align: justify;
 }
 
 nav, footer{
